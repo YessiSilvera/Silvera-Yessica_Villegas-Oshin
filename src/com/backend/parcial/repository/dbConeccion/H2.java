@@ -16,6 +16,7 @@ public class H2 {
                 "INSERT INTO TEST VALUES(1, 'Oshin Villegas');\n" +
                 "INSERT INTO TEST VALUES(2, 'Maria Villehas');\n" +
                 "INSERT INTO TEST VALUES(3, 'Yessica Silvera');\n";
+
         stmt.execute(createSql);
 
         //Codigo para consultar todos los registros de la tabla TEST
