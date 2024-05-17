@@ -1,0 +1,10 @@
+[2024-05-16 21:09:14] [ INFO ] [Application:11] Funciona
+[2024-05-16 21:09:14] [ INFO ] [Application:12] hecho por Yessi y Oshin
+[2024-05-16 21:12:29] [ INFO ] [OdontologoDaoH2:81] Odontólogos obtenidos exitosamente: [Odontólogo - Id: 1, Número Matrícula: 123, Nombre: Yessica, Apellido: Silvera, Odontólogo - Id: 2, Número Matrícula: 654, Nombre: Oshin, Apellido: Villegas]
+[2024-05-16 21:12:29] [ INFO ] [OdontologoDaoH2:39] Guardado con éxito: Odontólogo - Id: 3, Número Matrícula: 98, Nombre: Salvador, Apellido: Tse
+[2024-05-16 21:12:29] [ INFO ] [OdontologoDaoMemory:32] Guardado con éxito: Odontólogo - Id: 5, Número Matrícula: 98, Nombre: Salvador, Apellido: Tse
+[2024-05-16 21:12:29] [ INFO ] [OdontologoDaoMemory:38] Odontólogos obtenidos exitosamente: [Odontólogo - Id: 1, Número Matrícula: 123654, Nombre: Pedro, Apellido: Estocolmo, Odontólogo - Id: 2, Número Matrícula: 124654, Nombre: Maria, Apellido: Barcelona, Odontólogo - Id: 3, Número Matrícula: 125654, Nombre: Fernanda, Apellido: Paris, Odontólogo - Id: 4, Número Matrícula: 126654, Nombre: Diego, Apellido: Monterrey]
+[2024-05-16 21:13:39] [ INFO ] [OdontologoDaoMemory:38] Odontólogos obtenidos exitosamente: [Odontólogo - Id: 1, Número Matrícula: 123654, Nombre: Pedro, Apellido: Estocolmo, Odontólogo - Id: 2, Número Matrícula: 124654, Nombre: Maria, Apellido: Barcelona, Odontólogo - Id: 3, Número Matrícula: 125654, Nombre: Fernanda, Apellido: Paris, Odontólogo - Id: 4, Número Matrícula: 126654, Nombre: Diego, Apellido: Monterrey]
+[2024-05-16 21:13:39] [ INFO ] [OdontologoDaoMemory:32] Guardado con éxito: Odontólogo - Id: 5, Número Matrícula: 98, Nombre: Salvador, Apellido: Tse
+[2024-05-16 21:13:40] [ INFO ] [OdontologoDaoH2:81] Odontólogos obtenidos exitosamente: [Odontólogo - Id: 1, Número Matrícula: 123, Nombre: Yessica, Apellido: Silvera, Odontólogo - Id: 2, Número Matrícula: 654, Nombre: Oshin, Apellido: Villegas, Odontólogo - Id: 3, Número Matrícula: 98, Nombre: Salvador, Apellido: Tse]
+[2024-05-16 21:13:40] [ INFO ] [OdontologoDaoH2:39] Guardado con éxito: Odontólogo - Id: 4, Número Matrícula: 98, Nombre: Salvador, Apellido: Tse
