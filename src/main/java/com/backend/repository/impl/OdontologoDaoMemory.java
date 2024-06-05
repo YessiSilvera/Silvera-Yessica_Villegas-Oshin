@@ -26,6 +26,11 @@ public class OdontologoDaoMemory implements IDao<Odontologo> {
 
 
     @Override
+    public Odontologo buscar(Long id) {
+        return null;
+    }
+
+    @Override
     public Odontologo guardar(Odontologo odontologo) {
         Long id = Long.valueOf(listaOdontologos.size() + 1);
         Odontologo odontologoAGuardar = new Odontologo(id, odontologo.getNumMatricula(), odontologo.getNombre(), odontologo.getApellido());

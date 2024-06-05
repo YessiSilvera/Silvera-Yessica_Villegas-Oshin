@@ -13,6 +13,36 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     private static final Logger LOGGER = Logger.getLogger(OdontologoDaoH2.class);
 
     @Override
+    public Odontologo buscar(Long id) {
+        final String query = "SELECT * FROM ODONTOLOGOS WHERE ID = ?";
+        Connection connection = null;
+        Odontologo odontologo = null;
+
+        try {
+            connection = H2Connection.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setLong(1, id);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                odontologo = new Odontologo(resultSet.getLong("id"), resultSet.getLong("numero_matricula"), resultSet.getString("nombre"), resultSet.getString("apellido"));
+            }
+            LOGGER.info("Odontologo obtenido exitosamente: " + odontologo.toString());
+        } catch (Exception exception) {
+            LOGGER.error(exception.getMessage());
+            exception.printStackTrace();
+        } finally {
+            try {
+                connection.close();
+            } catch (Exception ex) {
+                LOGGER.error("No se ha podido cerrar la conexión." + ex.getMessage());
+                ex.printStackTrace();
+            }
+        }
+        return odontologo;
+    }
+
+    @Override
     public Odontologo guardar(Odontologo odontologo) {
         final String insert = "INSERT INTO ODONTOLOGOS(NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?, ?, ?)";
         Connection connection = null;
