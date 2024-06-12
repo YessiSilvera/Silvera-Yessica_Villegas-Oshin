@@ -1,15 +1,29 @@
 package com.backend.entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import jakarta.persistence.Id;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Column;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
+@Entity
+@Table (name = "DOMICILIOS")
 public class Domicilio {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(length = 50)
     private String calle;
+    @Column(length = 8)
     private int numero;
+    @Column(length = 50)
     private String localidad;
+    @Column(length = 50)
     private String provincia;
 
     public Domicilio(String calle, int numero, String localidad, String provincia) {
@@ -29,8 +43,7 @@ public class Domicilio {
 
     @Override
     public String toString() {
-        return "Domicilio{"
-                +
+        return "Domicilio{" +
                 "id=" + id +
                 ", calle='" + calle + '\'' +
                 ", numero=" + numero +
