@@ -17,4 +17,17 @@ public class OdontologoDtoEntrada {
         this.nombre = nombre;
         this.apellido = apellido;
     }
+
+    public Object getNumMatricula() {
+        return null;
+    }
+
+    public Object getNombre() {
+        return null;
+    }
+
+    public Object getApellido() {
+        return null;
+    }
 }
+

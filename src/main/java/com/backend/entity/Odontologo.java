@@ -36,4 +36,34 @@ public class Odontologo {
     public String toString() {
         return "Odontólogo - Id: " + getId() + ", Número Matrícula: " + getNumMatricula() + ", Nombre: " + getNombre() + ", Apellido: " + getApellido();
     }
+
+    private String getApellido() {
+        return null;
+    }
+
+    private String getNombre() {
+        return null;
+    }
+
+    private String getNumMatricula() {
+        return null;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setNumMatricula(Object numMatricula) {
+
+    }
+
+    public void setNombre(Object nombre) {
+    }
+
+    public void setApellido(Object apellido) {
+    }
 }

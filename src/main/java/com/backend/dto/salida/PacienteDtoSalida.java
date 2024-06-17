@@ -29,11 +29,18 @@ public class PacienteDtoSalida {
     public static PacienteDtoSalida fromPacienteAndDomicilio(Paciente paciente, DomicilioDtoSalida domicilioDtoSalida) {
         return new PacienteDtoSalida(
                 paciente.getId(),
-                paciente.getDni(),
+                (Long) paciente.getDni(),
                 paciente.getNombre(),
                 paciente.getApellido(),
                 domicilioDtoSalida,
                 paciente.getFechaAlta()
         );
+    }
+
+    public void setDomicilioDtoSalida(DomicilioDtoSalida domicilioDtoSalida) {
+    }
+
+    public Object getId() {
+        return null;
     }
 }

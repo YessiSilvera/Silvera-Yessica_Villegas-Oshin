@@ -45,9 +45,33 @@ public class Paciente {
         this.fechaAlta = fechaAlta;
     }
 
+    public LocalDate getFechaAlta() {
+        return null;
+    }
 
-    @Override
+    public String getApellido() {
+        return null;
+    }
+
+    public String getNombre() {
+        return null;
+    }
+
+    public Object getDni() {
+        return null;
+    }
+
+    public Long getId() {
+        return null;
+    }
+
+    public Object getDomicilio() {
+        return null;
+    }
+
+
+  /*  @Override
     public String toString() {
         return "Paciente - ID: " + getId() + ",DNI : " + getDni() + ",Nombre : " + getNombre() + ",Apellido : " + getApellido() + ",Domicilio : " + getDomicilio() + ",Fecha Alta : " + getFechaAlta();
     }
-}
+*/}

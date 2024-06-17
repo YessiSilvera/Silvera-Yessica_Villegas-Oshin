@@ -18,4 +18,16 @@ public class TurnoDtoEntrada {
         this.odontologoId = odontologoId;
         this.pacienteId = pacienteId;
     }
+
+    public Object getPacienteId() {
+        return null;
+    }
+
+    public Object getOdontologoId() {
+        return null;
+    }
+
+    public Object getFechaYHora() {
+        return null;
+    }
 }

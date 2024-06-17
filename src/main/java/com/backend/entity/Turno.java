@@ -15,7 +15,7 @@ public class Turno {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column (length = 20)
-    private LocalDateTime fechaYHora;
+    private Object fechaYHora;
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "odontologo_id")
     private Odontologo odontologo;
@@ -44,5 +44,29 @@ public class Turno {
                 ", odontologo=" + odontologo +
                 ", paciente=" + paciente +
                 '}';
+    }
+
+    public void setFechaYHora(Object fechaYHora) {
+        this.fechaYHora = fechaYHora;
+    }
+
+    public Object getFechaYHora() {
+        return fechaYHora;
+    }
+
+    public void setOdontologo(Odontologo odontologo) {
+        this.odontologo = odontologo;
+    }
+
+    public Odontologo getOdontologo() {
+        return odontologo;
+    }
+
+    public void setPaciente(Paciente paciente) {
+        this.paciente = paciente;
+    }
+
+    public Paciente getPaciente() {
+        return paciente;
     }
 }
