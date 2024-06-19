@@ -1,7 +1,5 @@
 package com.backend.dto.salida;
 
-import com.backend.entity.Odontologo;
-import com.backend.entity.Paciente;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -12,23 +10,13 @@ import java.time.LocalDateTime;
 public class TurnoDtoSalida {
     private Long id;
     private LocalDateTime fechaYHora;
-    private Odontologo odontologo;
-    private Paciente paciente;
-    private com.backend.dto.salida.OdontologoDtoSalida OdontologoDtoSalida;
+    private OdontologoDtoSalida odontologoDtoSalida;
     private PacienteDtoSalida pacienteDtoSalida;
 
-    public TurnoDtoSalida(Long id, LocalDateTime fechaYHora, Odontologo odontologo, Paciente paciente) {
+    public TurnoDtoSalida(Long id, LocalDateTime fechaYHora, OdontologoDtoSalida odontologoDtoSalida, PacienteDtoSalida pacienteDtoSalida) {
         this.id = id;
         this.fechaYHora = fechaYHora;
-        this.odontologo = odontologo;
-        this.paciente = paciente;
-    }
-
-    public void setOdontologoDtoSalida(OdontologoDtoSalida odontologoDtoSalida) {
-        this.OdontologoDtoSalida = odontologoDtoSalida;
-    }
-
-    public void setPacienteDtoSalida(PacienteDtoSalida pacienteDtoSalida) {
+        this.odontologoDtoSalida = odontologoDtoSalida;
         this.pacienteDtoSalida = pacienteDtoSalida;
     }
 }

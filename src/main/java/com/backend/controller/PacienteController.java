@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("pacientes")
+@CrossOrigin
 public class PacienteController {
 
     private IPacienteService pacienteService;
@@ -41,6 +42,7 @@ public class PacienteController {
     public PacienteDtoSalida actualizarPaciente(@PathVariable Long id, @RequestBody PacienteDtoEntrada pacienteDtoEntrada) throws ResourceNotFoundException {
         return pacienteService.actualizarPaciente(id, pacienteDtoEntrada);
     }
+
     @DeleteMapping("/{id}")
     public void eliminarPaciente(@PathVariable Long id) throws ResourceNotFoundException {
         pacienteService.eliminarPaciente(id);

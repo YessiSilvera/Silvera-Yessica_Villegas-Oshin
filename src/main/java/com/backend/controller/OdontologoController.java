@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("odontologos")
+@CrossOrigin
 public class OdontologoController {
 
     private final IOdontologoService odontologoService;
@@ -44,10 +45,6 @@ public class OdontologoController {
 
     @DeleteMapping("/{id}")
     public void eliminarOdontologo(@PathVariable Long id) throws ResourceNotFoundException {
-        try {
-            odontologoService.eliminarOdontologo(id);
-        } catch (ResourceNotFoundException e) {
-            throw new RuntimeException(e);
-        }
+        odontologoService.eliminarOdontologo(id);
     }
 }

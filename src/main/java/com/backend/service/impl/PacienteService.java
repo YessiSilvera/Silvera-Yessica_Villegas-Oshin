@@ -28,10 +28,7 @@ public class PacienteService implements IPacienteService {
         this.modelMapper = modelMapper;
     }
 
-    public static PacienteDtoSalida buscarPaciente(Object pacienteId) {
-        return null;
-    }
-
+    @Override
     public PacienteDtoSalida buscarPaciente(Long id) throws ResourceNotFoundException {
         Paciente paciente = pacienteRepository.findById(id).orElse(null);
         if (paciente == null) {
@@ -73,7 +70,6 @@ public class PacienteService implements IPacienteService {
         return pacientes;
     }
 
-
     @Override
     public PacienteDtoSalida actualizarPaciente(Long id, PacienteDtoEntrada pacienteDtoEntrada) throws ResourceNotFoundException {
         Paciente pacienteExistente = pacienteRepository.findById(id).orElse(null);
@@ -91,14 +87,14 @@ public class PacienteService implements IPacienteService {
     }
 
     @Override
-    public void eliminarPaciente(Long id) {
+    public void eliminarPaciente(Long id) throws ResourceNotFoundException {
         if (pacienteRepository.existsById(id)) {
             pacienteRepository.deleteById(id);
         } else {
             LOGGER.warn("No se encontró el paciente con ID: " + id);
+            throw new ResourceNotFoundException("No existe registro de paciente con id " + id);
         }
     }
-
 
     private PacienteDtoSalida convertToDto(Paciente paciente) {
         DomicilioDtoSalida domicilioDtoSalida = modelMapper.map(paciente.getDomicilio(), DomicilioDtoSalida.class);

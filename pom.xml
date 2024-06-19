@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.backend</groupId>
-    <artifactId>SILVERA-YESSICA_VILLEGAS-OSHIN</artifactId>
+    <artifactId>CHACON-DANIEL_SOTO-LUIS</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SILVERA-YESSICA_VILLEGAS-OSHIN</name>
-    <description>Proyecto de backend de SILVERA-YESSICA_VILLEGAS-OSHIN</description>
+    <name>CHACON-DANIEL_SOTO-LUIS</name>
+    <description>Proyecto de backend de CHACON-DANIEL_SOTO-LUIS</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -61,10 +61,6 @@
             <version>2.4.4</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
 
         <!-- Mantenemos junit-jupiter-engine -->
         <dependency>
@@ -85,26 +81,15 @@
             <version>2.10.1</version>
         </dependency>
 
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>jakarta.persistence</groupId>
-            <artifactId>jakarta.persistence-api</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>dom4j</groupId>
-            <artifactId>dom4j</artifactId>
-            <version>1.1</version>
         </dependency>
     </dependencies>
 
@@ -129,4 +114,3 @@
     </build>
 
 </project>
-

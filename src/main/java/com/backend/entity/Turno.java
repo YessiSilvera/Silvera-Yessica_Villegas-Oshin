@@ -14,21 +14,17 @@ public class Turno {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column (length = 20)
-    private Object fechaYHora;
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "odontologo_id")
-    private Odontologo odontologo;
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "paciente_id")
-    private Paciente paciente;
 
-    public Turno(Long id, LocalDateTime fechaYHora, Odontologo odontologo, Paciente paciente) {
-        this.id = id;
-        this.fechaYHora = fechaYHora;
-        this.odontologo = odontologo;
-        this.paciente = paciente;
-    }
+    @Column(nullable = false)
+    private LocalDateTime fechaYHora;
+
+    @OneToOne(cascade = CascadeType.ALL, optional = false)
+    @JoinColumn(name = "odontologo_id", nullable = false)
+    private Odontologo odontologo;
+
+    @OneToOne(cascade = CascadeType.ALL, optional = false)
+    @JoinColumn(name = "paciente_id", nullable = false)
+    private Paciente paciente;
 
     public Turno(LocalDateTime fechaYHora, Odontologo odontologo, Paciente paciente) {
         this.fechaYHora = fechaYHora;
@@ -36,37 +32,4 @@ public class Turno {
         this.paciente = paciente;
     }
 
-    @Override
-    public String toString() {
-        return "Turno{" +
-                "id=" + id +
-                ", fechaYHora=" + fechaYHora +
-                ", odontologo=" + odontologo +
-                ", paciente=" + paciente +
-                '}';
-    }
-
-    public void setFechaYHora(Object fechaYHora) {
-        this.fechaYHora = fechaYHora;
-    }
-
-    public Object getFechaYHora() {
-        return fechaYHora;
-    }
-
-    public void setOdontologo(Odontologo odontologo) {
-        this.odontologo = odontologo;
-    }
-
-    public Odontologo getOdontologo() {
-        return odontologo;
-    }
-
-    public void setPaciente(Paciente paciente) {
-        this.paciente = paciente;
-    }
-
-    public Paciente getPaciente() {
-        return paciente;
-    }
 }

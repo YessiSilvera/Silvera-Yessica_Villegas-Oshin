@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class OdontologoDtoEntrada {
 
-    private Long id;
     private Long numMatricula;
     private String nombre;
     private String apellido;
@@ -17,17 +16,4 @@ public class OdontologoDtoEntrada {
         this.nombre = nombre;
         this.apellido = apellido;
     }
-
-    public Object getNumMatricula() {
-        return null;
-    }
-
-    public Object getNombre() {
-        return null;
-    }
-
-    public Object getApellido() {
-        return null;
-    }
 }
-

@@ -10,24 +10,12 @@ import java.time.LocalDateTime;
 public class TurnoDtoEntrada {
     private Long id;
     private LocalDateTime fechaYHora;
-    private Long odontologoId; // Cambiado a Long para almacenar solo el ID
-    private Long pacienteId; // Cambiado a Long para almacenar solo el ID
+    private Long odontologoId;
+    private Long pacienteId;
 
     public TurnoDtoEntrada(LocalDateTime fechaYHora, Long odontologoId, Long pacienteId) {
         this.fechaYHora = fechaYHora;
         this.odontologoId = odontologoId;
         this.pacienteId = pacienteId;
-    }
-
-    public Object getPacienteId() {
-        return null;
-    }
-
-    public Object getOdontologoId() {
-        return null;
-    }
-
-    public Object getFechaYHora() {
-        return null;
     }
 }

@@ -1,6 +1,5 @@
 package com.backend.service.impl;
 
-
 import com.backend.dto.entrada.OdontologoDtoEntrada;
 import com.backend.dto.salida.OdontologoDtoSalida;
 import com.backend.entity.Odontologo;
@@ -28,7 +27,8 @@ public class OdontologoService implements IOdontologoService {
         this.odontologoRepository = odontologoRepository;
     }
 
-    public static OdontologoDtoSalida buscarOdontologo(Object id) throws ResourceNotFoundException {
+    @Override
+    public OdontologoDtoSalida buscarOdontologo(Long id) throws ResourceNotFoundException {
         Odontologo odontologo = odontologoRepository.findById(id).orElse(null);
         if (odontologo == null) {
             throw new ResourceNotFoundException("No existe registro de odontologo con id " + id);

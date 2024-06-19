@@ -15,27 +15,22 @@ public class Paciente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    @Column (length = 20)
-    private long dni;
-    @Column (length = 50)
+
+    @Column(length = 20, nullable = false)
+    private Long dni;
+
+    @Column(length = 50, nullable = false)
     private String nombre;
-    @Column (length = 50)
+
+    @Column(length = 50, nullable = false)
     private String apellido;
-    @Column(length = 20)
+
+    @Column(length = 20, nullable = false)
     private LocalDate fechaAlta;
+
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "domicilio_id")
     private Domicilio domicilio;
-
-
-    public Paciente(long id, long dni, String nombre, String apellido, Domicilio domicilio, LocalDate fechaAlta) {
-        this.id = id;
-        this.dni = dni;
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.domicilio = domicilio;
-        this.fechaAlta = fechaAlta;
-    }
 
     public Paciente(long dni, String nombre, String apellido, Domicilio domicilio, LocalDate fechaAlta) {
         this.dni = dni;
@@ -45,33 +40,4 @@ public class Paciente {
         this.fechaAlta = fechaAlta;
     }
 
-    public LocalDate getFechaAlta() {
-        return null;
-    }
-
-    public String getApellido() {
-        return null;
-    }
-
-    public String getNombre() {
-        return null;
-    }
-
-    public Object getDni() {
-        return null;
-    }
-
-    public Long getId() {
-        return null;
-    }
-
-    public Object getDomicilio() {
-        return null;
-    }
-
-
-  /*  @Override
-    public String toString() {
-        return "Paciente - ID: " + getId() + ",DNI : " + getDni() + ",Nombre : " + getNombre() + ",Apellido : " + getApellido() + ",Domicilio : " + getDomicilio() + ",Fecha Alta : " + getFechaAlta();
-    }
-*/}
+}

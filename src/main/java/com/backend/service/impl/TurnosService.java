@@ -9,10 +9,8 @@ import com.backend.entity.Odontologo;
 import com.backend.entity.Paciente;
 import com.backend.entity.Turno;
 import com.backend.exceptions.ResourceNotFoundException;
-import com.backend.repository.OdontologoRepository;
-import com.backend.repository.PacienteRepository;
 import com.backend.repository.TurnoRepository;
-import com.backend.service.ITurnosService;
+import com.backend.service.ITurnoService;
 import com.backend.utils.JsonPrinter;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -22,23 +20,24 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-
 import java.util.List;
 
 @Service
-public class TurnosService implements ITurnosService {
+public class TurnosService implements ITurnoService {
 
     private static final Logger LOGGER = Logger.getLogger(TurnosService.class);
     private final TurnoRepository turnoRepository;
-    private final OdontologoRepository odontologoRepository;
-    private final PacienteRepository pacienteRepository;
+    private final OdontologoService odontologoService;
+    private final PacienteService pacienteService;
     private final ModelMapper modelMapper;
+    @PersistenceContext
+    private EntityManager entityManager;
 
     @Autowired
-    public TurnosService(TurnoRepository turnoRepository, OdontologoRepository odontologoRepository, PacienteRepository pacienteRepository, ModelMapper modelMapper) {
+    public TurnosService(TurnoRepository turnoRepository, OdontologoService odontologoService, PacienteService pacienteService, ModelMapper modelMapper) {
         this.turnoRepository = turnoRepository;
-        this.odontologoRepository = odontologoRepository;
-        this.pacienteRepository = pacienteRepository;
+        this.odontologoService = odontologoService;
+        this.pacienteService = pacienteService;
         this.modelMapper = modelMapper;
     }
 
@@ -58,10 +57,9 @@ public class TurnosService implements ITurnosService {
         Turno turnoAGuardar = new Turno();
         turnoAGuardar.setFechaYHora(turnoDtoEntrada.getFechaYHora());
 
-        OdontologoDtoSalida odontologoDto;
-        odontologoDto = OdontologoService.buscarOdontologo(turnoDtoEntrada.getOdontologoId());
+        OdontologoDtoSalida odontologoDto = odontologoService.buscarOdontologo(turnoDtoEntrada.getOdontologoId());
 
-        PacienteDtoSalida pacienteDto = PacienteService.buscarPaciente(turnoDtoEntrada.getPacienteId());
+        PacienteDtoSalida pacienteDto = pacienteService.buscarPaciente(turnoDtoEntrada.getPacienteId());
 
         Odontologo odontologo = modelMapper.map(odontologoDto, Odontologo.class);
         Paciente paciente = modelMapper.map(pacienteDto, Paciente.class);
@@ -77,14 +75,15 @@ public class TurnosService implements ITurnosService {
         return convertToDto(turnoGuardado);
     }
 
+
     @Override
     public List<TurnoDtoSalida> listarTodosLosTurnos() {
         List<TurnoDtoSalida> turnos = turnoRepository.findAll()
                 .stream()
-                .map(turno -> modelMapper.map(turno, TurnoDtoSalida.class))
+                .map(this::convertToDto)
                 .toList();
 
-        LOGGER.info("Listado de todos los turnos: {}" + turnos);
+        LOGGER.info("Listado de todos los turnos: {}" + JsonPrinter.toString(turnos));
 
         if (turnos.isEmpty()) {
             LOGGER.warn("No se encontraron turnos");
@@ -101,11 +100,11 @@ public class TurnosService implements ITurnosService {
 
         turnoExistente.setFechaYHora(turnoDtoEntrada.getFechaYHora());
 
-        OdontologoDtoSalida odontologo = OdontologoService.buscarOdontologo(turnoDtoEntrada.getOdontologoId());
+        OdontologoDtoSalida odontologo = odontologoService.buscarOdontologo(turnoDtoEntrada.getOdontologoId());
 
         turnoExistente.setOdontologo(modelMapper.map(odontologo, Odontologo.class));
 
-        PacienteDtoSalida paciente = PacienteService.buscarPaciente(turnoDtoEntrada.getPacienteId());
+        PacienteDtoSalida paciente = pacienteService.buscarPaciente(turnoDtoEntrada.getPacienteId());
 
         turnoExistente.setPaciente(modelMapper.map(paciente, Paciente.class));
 
