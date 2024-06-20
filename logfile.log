@@ -428,3 +428,11 @@
 2024-06-20 01:16:40 WARN  PacienteService:68 - No se encontraron pacientes
 2024-06-20 01:16:40 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
 2024-06-20 01:16:40 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 01:20:13 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 01:20:13 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 01:20:35 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 01:20:35 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 01:20:35 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 01:20:35 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 01:20:35 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 01:20:35 WARN  OdontologoService:58 - No se encontraron odontólogos

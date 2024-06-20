@@ -205,106 +205,136 @@ async function cargarInputsTurno(id){
 
  }
 
-  // Eliminar Turno
+ // Eliminar Turno
 
-  async function eliminarTurno(id) {
-    Swal.fire({
-            title: `Estas seguro de eliminar este turno ID: ${id}`,
-            text: "Esta acción no se puede revertir",
-            icon: "warning",
-            showCancelButton: true,
-            confirmButtonColor: "#3085d6",
-            cancelButtonColor: "#d33",
-            confirmButtonText: "Si, Eliminar",
-            cancelButtonText: "Cancelar"
-          }).then(async(result) => {
-            if ( result.isConfirmed) {
-                const url = `http://localhost:8080/turnos/eliminar?id=${id}`;
-                try {
-                    const response = await fetch(url, {
-                        method: 'DELETE'
-                    });
-
-                    if (!response.ok) {
-                        Swal.fire({
-                            title: `No se pudo eliminar el turno`,
-                            text: response,
-                            icon: "error"
-                          });
-                        throw new Error('Network response was not ok ' + response.statusText);
-                    }
-                    Swal.fire({
-                        title: `Eliminado turno ID: ${id}`,
-                        icon: "success"
-                      });
-                    obtenerListadoTurnos();
-                    console.log('Turno eliminado correctamente');
-                } catch (error) {
-                    Swal.fire({
-                        title: `No se pudo eliminar el turno`,
-                        icon: "error"
-                      });
-                    console.error('There was a problem with the fetch operation:', error);
-                }
-
-            }
-          });
-  }
-
-   async function actulizarTurno(id){
-      const fecha = document.querySelector("#fecha").value;
-      const hora = document.querySelector("#hora").value;
-      const fechaYHoraConcat = `${fecha}T${hora}:`
-      const datosTurno = {
-          odontologoId : document.querySelector("#pacienteSelect").value,
-          pacienteId : document.querySelector("#odontologoSelect").value,
-          fechaYHora: fechaYHoraConcat
-      };
-
-      console.log(datosTurno);
-
+    async function eliminarTurno(id) {
       Swal.fire({
-          title: `¿Confirmas la edición de este turno?`,
+          title: `Estas seguro de eliminar este turno ID: ${id}`,
+          text: "Esta acción no se puede revertir",
           icon: "warning",
           showCancelButton: true,
           confirmButtonColor: "#3085d6",
           cancelButtonColor: "#d33",
-          confirmButtonText: "Confirmar",
+          confirmButtonText: "Si, Eliminar",
           cancelButtonText: "Cancelar"
         }).then(async(result) => {
           if ( result.isConfirmed) {
+              const url = `http://localhost:8080/turnos/eliminar?id=${id}`;
+
               try {
-                  const response = await fetch(`http://localhost:8080/turnos/actualizar/${id}`, {
-                      method: 'PUT',
-                      headers: {
-                          'Content-Type': 'application/json'
-                      },
-                      body: JSON.stringify(datosTurno)
+                  const response = await fetch(url, {
+                      method: 'DELETE'
                   });
 
-
-              if (!response.ok) {
-                  throw new Error('Network response was not ok ' + response.statusText);
-              }
-
-              const resultado = await response.json();
-              Swal.fire({
-                  title: `Turno guardado`,
-                  icon: "success"
-                });
-              obtenerListadoTurnos();
-              location.reload(true);
-              return resultado;
+                  if (!response.ok) {
+                      throw new Error('Network response was not ok ' + response.statusText);
+                  }
+                  Swal.fire({
+                      title: `Eliminado turno ID: ${id}`,
+                      icon: "success"
+                    });
+                  obtenerListadoTurnos();
+                  console.log('Turno eliminado correctamente');
               } catch (error) {
                   Swal.fire({
-                      title: `No se pudo guardar el turno`,
+                      title: `No se pudo eliminar el turno`,
                       icon: "error"
                     });
                   console.error('There was a problem with the fetch operation:', error);
               }
           }
       });
-  }
+    }
+
+
+
+ // Actualizar Turno
+
+ async function cargarInputsTurno(id){
+    // resetearFormulario();
+    try {
+        const response = await fetch(`http://localhost:8080/turnos/${id}`);
+
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+
+        const turnoAEditar = await response.json()
+
+        document.querySelector("#id_turno").innerHTML = turnoAEditar.id
+        document.querySelector("#pacienteSelect").value = turnoAEditar.pacienteDtoSalida.id;
+        document.querySelector("#odontologoSelect").value = turnoAEditar.odontologoDtoSalida.id;
+
+        const fechaYHora= turnoAEditar.fechaYHora;
+        document.querySelector("#fecha").value = fechaYHora.split("T")[0];
+        document.querySelector("#hora").value = fechaYHora.split("T")[1];
+
+        return turnoAEditar;
+    } catch (error) {
+        console.error('There was a problem with the fetch operation:', error);
+    }
+
+ }
+
+
+
+ async function actulizarTurno(id){
+    const fecha = document.querySelector("#fecha").value;
+    const hora = document.querySelector("#hora").value;
+    const fechaYHoraConcat = `${fecha}T${hora}`
+    const datosTurno = {
+        odontologoId : document.querySelector("#odontologoSelect").value,
+        pacienteId : document.querySelector("#pacienteSelect").value,
+        fechaYHora: fechaYHoraConcat
+    };
+
+    console.log(datosTurno);
+
+    Swal.fire({
+        title: `¿Cofirmas la edición de este turno?`,
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Confirmar",
+        cancelButtonText: "Cancelar"
+      }).then(async(result) => {
+        if ( result.isConfirmed) {
+            try {
+                const response = await fetch(`http://localhost:8080/turnos/actualizar/${id}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(datosTurno)
+                });
+
+
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+
+            const resultado = await response.json();
+            Swal.fire({
+                title: `Turno guardado`,
+                icon: "success"
+              });
+            obtenerListadoTurnos();
+            resetearFormulario();
+            return resultado;
+            } catch (error) {
+                Swal.fire({
+                    title: `No se pudo guardar el turno`,
+                    icon: "error"
+                  });
+                console.error('There was a problem with the fetch operation:', error);
+            }
+        }
+    });
+}
+
+
+
 
 function decisionRegistrarOEditar(){
     const idRegistro = document.querySelector("#id_turno").innerHTML
