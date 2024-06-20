@@ -38,13 +38,13 @@ public class TurnoController {
         return turnoService.buscarTurno(id);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/actualizar/{id}")
     public TurnoDtoSalida actualizarTurno(@PathVariable Long id, @RequestBody TurnoDtoEntrada turnoDtoEntrada) throws ResourceNotFoundException {
         return turnoService.actualizarTurno(id, turnoDtoEntrada);
     }
 
-    @DeleteMapping("/{id}")
-    public void eliminarTurno(@PathVariable Long id) throws ResourceNotFoundException {
+    @DeleteMapping("/eliminar")
+    public void eliminarTurno(@RequestParam Long id) throws ResourceNotFoundException {
         turnoService.eliminarTurno(id);
     }
 }

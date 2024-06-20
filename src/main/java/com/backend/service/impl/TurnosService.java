@@ -100,12 +100,18 @@ public class TurnosService implements ITurnoService {
 
         turnoExistente.setFechaYHora(turnoDtoEntrada.getFechaYHora());
 
-        OdontologoDtoSalida odontologo = odontologoService.buscarOdontologo(turnoDtoEntrada.getOdontologoId());
-
+        OdontologoDtoSalida odontologoDtoSalida = odontologoService.buscarOdontologo(turnoDtoEntrada.getOdontologoId());
+        if (odontologoDtoSalida == null) {
+            throw new ResourceNotFoundException("No se encontro el odontologo");
+        }
+        Odontologo odontologo = modelMapper.map(odontologoDtoSalida, Odontologo.class);
         turnoExistente.setOdontologo(modelMapper.map(odontologo, Odontologo.class));
 
-        PacienteDtoSalida paciente = pacienteService.buscarPaciente(turnoDtoEntrada.getPacienteId());
-
+        PacienteDtoSalida pacienteDtoSalida = pacienteService.buscarPaciente(turnoDtoEntrada.getPacienteId());
+        if (pacienteDtoSalida == null) {
+            throw new ResourceNotFoundException("No se encontro el paciente");
+        }
+        Paciente paciente = modelMapper.map(pacienteDtoSalida, Paciente.class);
         turnoExistente.setPaciente(modelMapper.map(paciente, Paciente.class));
 
         turnoExistente = turnoRepository.save(turnoExistente);
