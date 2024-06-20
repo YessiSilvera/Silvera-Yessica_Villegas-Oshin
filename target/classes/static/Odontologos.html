@@ -127,7 +127,7 @@
 								<h2>Ingreso de especialistas</h2>
 							</div>
 						</div>
-						<form class="mt-4 px-5">
+						<form class="mt-4 px-5" id="odontologForm">
 							<div class="mb-3 row">
 								<label for="id_odontologo" class="col-sm-3 col-form-label">ID</label>
 								<div class="col-sm-9">
@@ -168,7 +168,26 @@
 			</div>
 		</div>
 	</div>
-	
+
+
+	<div class="container">
+		<table class="table">
+			<thead class="table-light">
+			<tr>
+				<th scope="col">ID</th>
+				<th scope="col">Matricula</th>
+				<th scope="col">Nombre</th>
+				<th scope="col">Apellido</th>
+				<th scope="col"></th>
+			</tr>
+			</thead>
+			<tbody class="odontologos_tabla">
+
+			</tbody>
+		</table>
+
+
+	</div>
 
 
 	<!-- Footer -->
@@ -290,6 +309,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/about.js"></script>
+<script src="./lib/sweetalert2/js/sweetalert2.min.js
+"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
@@ -300,6 +321,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos
 
   gtag('config', 'UA-23581568-13');
 </script>
-<script src="/odontologos.js"></script>
+<script src="./js/Odontologos.js"></script>
 </body>
 </html>

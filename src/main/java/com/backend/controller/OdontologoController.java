@@ -38,12 +38,12 @@ public class OdontologoController {
         return odontologoService.buscarOdontologo(id);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/actualizar/{id}")
     public OdontologoDtoSalida actualizarOdontologo(@PathVariable Long id, @RequestBody OdontologoDtoEntrada odontologoDtoEntrada) throws ResourceNotFoundException {
         return odontologoService.actualizarOdontologo(id, odontologoDtoEntrada);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/eliminar")
     public void eliminarOdontologo(@PathVariable Long id) throws ResourceNotFoundException {
         odontologoService.eliminarOdontologo(id);
     }
