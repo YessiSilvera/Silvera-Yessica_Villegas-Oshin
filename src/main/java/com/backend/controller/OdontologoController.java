@@ -44,7 +44,7 @@ public class OdontologoController {
     }
 
     @DeleteMapping("/eliminar")
-    public void eliminarOdontologo(@PathVariable Long id) throws ResourceNotFoundException {
+    public void eliminarOdontologo(@RequestParam  Long id) throws ResourceNotFoundException {
         odontologoService.eliminarOdontologo(id);
     }
 }

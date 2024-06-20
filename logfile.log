@@ -35,3 +35,46 @@
 2024-06-19 22:59:56 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Yessi",    "apellido": "Silvera"  },  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Fe"  },  {    "id": 3,    "numMatricula": 2,    "nombre": "kjgf",    "apellido": "jhk"  },  {    "id": 4,    "numMatricula": 2,    "nombre": "odontologo2",    "apellido": "jhk"  }]
 2024-06-19 23:01:00 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Yessi",    "apellido": "Silvera"  },  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Fe"  },  {    "id": 3,    "numMatricula": 2,    "nombre": "kjgf",    "apellido": "jhk"  },  {    "id": 4,    "numMatricula": 2,    "nombre": "odontologo2",    "apellido": "jhk"  }]
 2024-06-19 23:04:20 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Yessi",    "apellido": "Silvera"  },  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Fe"  },  {    "id": 3,    "numMatricula": 2,    "nombre": "kjgf",    "apellido": "jhk"  },  {    "id": 4,    "numMatricula": 2,    "nombre": "odontologo2",    "apellido": "jhk"  }]
+2024-06-19 23:06:59 INFO  ClinicaOdontologicaApplication:15 - FUNCIONANDO)
+2024-06-19 23:06:59 INFO  ClinicaOdontologicaApplication:16 - HECHO A MANO POR YESSICA SILVERA Y OSHIN VILLEGAS
+2024-06-19 23:07:03 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-19 23:07:03 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-19 23:07:08 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 1,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Fe"}
+2024-06-19 23:07:11 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Fe"  }]
+2024-06-19 23:07:43 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Fe"  }]
+2024-06-19 23:07:44 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Fe"  }]
+2024-06-19 23:07:48 INFO  OdontologoService:76 - Odontólogo actualizado con éxito: {  "id": 1,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Fee"}
+2024-06-19 23:07:48 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Fee"  }]
+2024-06-19 23:07:49 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Fee"  }]
+2024-06-19 23:08:49 INFO  OdontologoService:76 - Odontólogo actualizado con éxito: {  "id": 1,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Fee"}
+2024-06-19 23:08:52 INFO  OdontologoService:76 - Odontólogo actualizado con éxito: {  "id": 1,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Feeeeeee"}
+2024-06-19 23:08:54 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:10:48 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:10:52 INFO  OdontologoService:76 - Odontólogo actualizado con éxito: {  "id": 1,  "numMatricula": 1,  "nombre": "Pipee",  "apellido": "Feeeeeee"}
+2024-06-19 23:10:52 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:10:52 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:11:49 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:13:10 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:13:12 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:13:37 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:13:38 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:16:00 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:16:01 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:17:15 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:17:16 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:17:20 INFO  OdontologoService:76 - Odontólogo actualizado con éxito: {  "id": 1,  "numMatricula": 1,  "nombre": "Pipee",  "apellido": "Feeeeeee"}
+2024-06-19 23:17:20 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:17:21 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:17:28 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipee",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:17:35 INFO  OdontologoService:76 - Odontólogo actualizado con éxito: {  "id": 1,  "numMatricula": 1,  "nombre": "Pipeek",  "apellido": "Feeeeeee"}
+2024-06-19 23:17:35 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipeek",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:17:35 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "Pipeek",    "apellido": "Feeeeeee"  }]
+2024-06-19 23:20:06 INFO  ClinicaOdontologicaApplication:15 - FUNCIONANDO)
+2024-06-19 23:20:06 INFO  ClinicaOdontologicaApplication:16 - HECHO A MANO POR YESSICA SILVERA Y OSHIN VILLEGAS
+2024-06-19 23:20:15 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-19 23:20:15 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-19 23:20:22 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 1,  "numMatricula": 2,  "nombre": "feli",  "apellido": "asd"}
+2024-06-19 23:20:22 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 2,    "nombre": "feli",    "apellido": "asd"  }]
+2024-06-19 23:20:29 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 2,  "numMatricula": 2,  "nombre": "feli",  "apellido": "asdk"}
+2024-06-19 23:20:29 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 2,    "nombre": "feli",    "apellido": "asd"  },  {    "id": 2,    "numMatricula": 2,    "nombre": "feli",    "apellido": "asdk"  }]
+2024-06-19 23:21:59 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 2,    "nombre": "feli",    "apellido": "asd"  },  {    "id": 2,    "numMatricula": 2,    "nombre": "feli",    "apellido": "asdk"  }]

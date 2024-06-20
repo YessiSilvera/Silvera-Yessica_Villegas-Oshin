@@ -237,7 +237,7 @@ async function actulizarOdontologo(id){
     };  
 
     Swal.fire({
-        title: `¿Cofirnas la edición de este odontologo?`,
+        title: `¿Confirmas la edición de este odontologo?`,
         icon: "warning",
         showCancelButton: true,
         confirmButtonColor: "#3085d6",
