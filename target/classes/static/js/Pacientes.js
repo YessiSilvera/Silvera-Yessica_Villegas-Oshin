@@ -18,22 +18,22 @@ async function obtenerListadoPacientes() {
 
       let pacientesHtml = "";
       listadoPacientes.forEach(paciente => {
-        let domicilioText = `${paciente.domicilio.calle} ${paciente.domicilio.numero} - ${paciente.domicilio.localidad}, ${paciente.domicilio.provincia}`
+        let domicilioText = `${paciente.domicilioDtoSalida.calle} ${paciente.domicilioDtoSalida.numero} - ${paciente.domicilioDtoSalida.localidad}, ${paciente.domicilioDtoSalida.provincia}`
         pacientesHtml += `<tr>
                             <th scope="row">${paciente.id}</th>
                             <td>${paciente.dni}</td>
                             <td>${paciente.nombre}</td>
                             <td>${paciente.apellido}</td>
-                            <td>${paciente.fechaIngreso}</td>
+                            <td>${paciente.fechaAlta}</td>
                             <td>${domicilioText}</td>
                             <td>  
                                 <a class="text-primary px-3" href="#" onclick="cargarInputsPaciente(${paciente.id})" >
-                                    <i class="fas fa-edit"></i>
+                                    <i class="bi bi-pen"></i>
                                 </a>
                                 <a class="text-primary px-3" href="#" onclick="eliminarPaciente(${paciente.id})">
-                                    <i class="fas fa-trash-alt"></i>
+                                    <i class="bi bi-trash"></i>
                                 </a>
-                            </td>                  
+                            </td>
                         </tr>`
       });
     
@@ -104,8 +104,8 @@ async function registrarPaciente() {
       nombre: document.querySelector("#nombre_paciente").value,
       apellido: document.querySelector("#apellido_paciente").value,
       dni: document.querySelector("#dni_paciente").value,
-      fechaIngreso: obtenerFechaActual(),
-      domicilio: {
+      fechaAlta: obtenerFechaActual(),
+      domicilioEntradaDto: {
           calle: document.querySelector("#calle_domicilio").value,
           numero: document.querySelector("#numero_domicilio").value,
           localidad: document.querySelector("#localidad_domicilio").value,
@@ -233,10 +233,10 @@ async function cargarInputsPaciente(id){
         document.querySelector("#dni_paciente").value = pacienteAEditar.dni;
         document.querySelector("#nombre_paciente").value = pacienteAEditar.nombre;
         document.querySelector("#apellido_paciente").value = pacienteAEditar.apellido;
-        document.querySelector("#calle_domicilio").value = pacienteAEditar.domicilio.calle;
-        document.querySelector("#numero_domicilio").value = pacienteAEditar.domicilio.numero;
-        document.querySelector("#localidad_domicilio").value = pacienteAEditar.domicilio.localidad;
-        document.querySelector("#provincia_domicilio").value =pacienteAEditar.domicilio.provincia;
+        document.querySelector("#calle_domicilio").value = pacienteAEditar.domicilioDtoSalida.calle;
+        document.querySelector("#numero_domicilio").value = pacienteAEditar.domicilioDtoSalida.numero;
+        document.querySelector("#localidad_domicilio").value = pacienteAEditar.domicilioDtoSalida.localidad;
+        document.querySelector("#provincia_domicilio").value =pacienteAEditar.domicilioDtoSalida.provincia;
 
       
         return listadoPacientes;
@@ -252,8 +252,8 @@ async function actulizarPaciente(id){
         nombre: document.querySelector("#nombre_paciente").value,
         apellido: document.querySelector("#apellido_paciente").value,
         dni: document.querySelector("#dni_paciente").value,
-        fechaIngreso: obtenerFechaActual(),
-        domicilio: {
+        fechaAlta: obtenerFechaActual(),
+        domicilioEntradaDto: {
             calle: document.querySelector("#calle_domicilio").value,
             numero: document.querySelector("#numero_domicilio").value,
             localidad: document.querySelector("#localidad_domicilio").value,

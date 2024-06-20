@@ -78,3 +78,37 @@
 2024-06-19 23:20:29 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 2,  "numMatricula": 2,  "nombre": "feli",  "apellido": "asdk"}
 2024-06-19 23:20:29 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 2,    "nombre": "feli",    "apellido": "asd"  },  {    "id": 2,    "numMatricula": 2,    "nombre": "feli",    "apellido": "asdk"  }]
 2024-06-19 23:21:59 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 2,    "nombre": "feli",    "apellido": "asd"  },  {    "id": 2,    "numMatricula": 2,    "nombre": "feli",    "apellido": "asdk"  }]
+2024-06-19 23:23:12 INFO  ClinicaOdontologicaApplication:15 - FUNCIONANDO)
+2024-06-19 23:23:12 INFO  ClinicaOdontologicaApplication:16 - HECHO A MANO POR YESSICA SILVERA Y OSHIN VILLEGAS
+2024-06-19 23:23:52 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-19 23:23:52 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-19 23:23:58 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 1,  "numMatricula": 1,  "nombre": "sdf",  "apellido": "asd"}
+2024-06-19 23:23:58 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  }]
+2024-06-19 23:24:02 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-19 23:24:02 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-19 23:24:08 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 2,  "numMatricula": 1,  "nombre": "sdf",  "apellido": "asd"}
+2024-06-19 23:24:08 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  }]
+2024-06-19 23:24:17 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 3,  "numMatricula": 1,  "nombre": "odontologo1",  "apellido": "asd"}
+2024-06-19 23:24:17 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 3,    "numMatricula": 1,    "nombre": "odontologo1",    "apellido": "asd"  }]
+2024-06-19 23:24:21 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 4,  "numMatricula": 1,  "nombre": "odontologo2",  "apellido": "asd"}
+2024-06-19 23:24:21 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 3,    "numMatricula": 1,    "nombre": "odontologo1",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:24:25 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:24:30 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:24:32 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:26:11 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:27:26 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:27:32 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:27:35 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:30:10 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:30:25 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:31:17 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:39:54 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "sdf",    "apellido": "asd"  },  {    "id": 4,    "numMatricula": 1,    "nombre": "odontologo2",    "apellido": "asd"  }]
+2024-06-19 23:42:33 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-19 23:42:33 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-19 23:43:05 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-19 23:43:05 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-19 23:52:35 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-19 23:52:35 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-19 23:53:48 INFO  PacienteService:52 - Paciente guardado con éxito: {  "id": 1,  "dni": 1111111,  "nombre": "yessi",  "apellido": "silvera",  "domicilioDtoSalida": {    "id": 1,    "calle": "obligado",    "numero": 1309,    "localidad": "montevideo",    "provincia": "xd"  },  "fechaAlta": "2024-06-19"}
+2024-06-19 23:53:48 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 1111111,    "nombre": "yessi",    "apellido": "silvera",    "domicilioDtoSalida": {      "id": 1,      "calle": "obligado",      "numero": 1309,      "localidad": "montevideo",      "provincia": "xd"    },    "fechaAlta": "2024-06-19"  }]
+2024-06-19 23:54:00 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 1111111,    "nombre": "yessi",    "apellido": "silvera",    "domicilioDtoSalida": {      "id": 1,      "calle": "obligado",      "numero": 1309,      "localidad": "montevideo",      "provincia": "xd"    },    "fechaAlta": "2024-06-19"  }]

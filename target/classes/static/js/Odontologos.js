@@ -26,10 +26,10 @@ async function obtenerListadoOdontologos() {
                             <td>${odontologo.apellido}</td>
                             <td>  
                                 <a class="text-primary px-3" href="#" onclick="cargarInputsOdontologo(${odontologo.id})">
-                                    <i class="fas fa-edit"></i>
+                                    <i class="bi bi-pen"></i>
                                 </a>
                                 <a class="text-primary px-3" href="#" onclick="eliminarOdontologo(${odontologo.id})">
-                                    <i class="fas fa-trash-alt"></i>
+                                    <i class="bi bi-trash"></i>
                                 </a>
                             </td>                  
                         </tr>`

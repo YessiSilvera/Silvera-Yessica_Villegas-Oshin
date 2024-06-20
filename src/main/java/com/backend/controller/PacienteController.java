@@ -38,13 +38,13 @@ public class PacienteController {
         return pacienteService.buscarPaciente(id);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/actualizar/{id}")
     public PacienteDtoSalida actualizarPaciente(@PathVariable Long id, @RequestBody PacienteDtoEntrada pacienteDtoEntrada) throws ResourceNotFoundException {
         return pacienteService.actualizarPaciente(id, pacienteDtoEntrada);
     }
 
-    @DeleteMapping("/{id}")
-    public void eliminarPaciente(@PathVariable Long id) throws ResourceNotFoundException {
+    @DeleteMapping("/eliminar")
+    public void eliminarPaciente(@RequestParam Long id) throws ResourceNotFoundException {
         pacienteService.eliminarPaciente(id);
     }
 }
