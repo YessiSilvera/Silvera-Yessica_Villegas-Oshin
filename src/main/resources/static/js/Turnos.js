@@ -207,44 +207,44 @@ async function cargarInputsTurno(id){
 
  // Eliminar Turno
 
-    async function eliminarTurno(id) {
-      Swal.fire({
-          title: `Estas seguro de eliminar este turno ID: ${id}`,
-          text: "Esta acción no se puede revertir",
-          icon: "warning",
-          showCancelButton: true,
-          confirmButtonColor: "#3085d6",
-          cancelButtonColor: "#d33",
-          confirmButtonText: "Si, Eliminar",
-          cancelButtonText: "Cancelar"
-        }).then(async(result) => {
-          if ( result.isConfirmed) {
-              const url = `http://localhost:8080/turnos/eliminar?id=${id}`;
+     async function eliminarTurno(id) {
+       Swal.fire({
+           title: `Estas seguro de eliminar este turno ID: ${id}`,
+           text: "Esta acción no se puede revertir",
+           icon: "warning",
+           showCancelButton: true,
+           confirmButtonColor: "#3085d6",
+           cancelButtonColor: "#d33",
+           confirmButtonText: "Si, Eliminar",
+           cancelButtonText: "Cancelar"
+         }).then(async(result) => {
+           if ( result.isConfirmed) {
+               const url = `http://localhost:8080/turnos/eliminar?id=${id}`;
 
-              try {
-                  const response = await fetch(url, {
-                      method: 'DELETE'
-                  });
+               try {
+                   const response = await fetch(url, {
+                       method: 'DELETE'
+                   });
 
-                  if (!response.ok) {
-                      throw new Error('Network response was not ok ' + response.statusText);
-                  }
-                  Swal.fire({
-                      title: `Eliminado turno ID: ${id}`,
-                      icon: "success"
-                    });
-                  obtenerListadoTurnos();
-                  console.log('Turno eliminado correctamente');
-              } catch (error) {
-                  Swal.fire({
-                      title: `No se pudo eliminar el turno`,
-                      icon: "error"
-                    });
-                  console.error('There was a problem with the fetch operation:', error);
-              }
-          }
-      });
-    }
+                   if (!response.ok) {
+                       throw new Error('Network response was not ok ' + response.statusText);
+                   }
+                   Swal.fire({
+                       title: `Eliminado turno ID: ${id}`,
+                       icon: "success"
+                     });
+                   obtenerListadoTurnos();
+                   console.log('Turno eliminado correctamente');
+               } catch (error) {
+                   Swal.fire({
+                       title: `No se pudo eliminar el turno`,
+                       icon: "error"
+                     });
+                   console.error('There was a problem with the fetch operation:', error);
+               }
+           }
+       });
+     }
 
 
 

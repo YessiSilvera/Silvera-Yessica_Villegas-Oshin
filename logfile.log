@@ -436,3 +436,261 @@
 2024-06-20 01:20:35 WARN  TurnosService:89 - No se encontraron turnos
 2024-06-20 01:20:35 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
 2024-06-20 01:20:35 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 19:50:40 INFO  ClinicaOdontologicaApplication:15 - FUNCIONANDO)
+2024-06-20 19:50:40 INFO  ClinicaOdontologicaApplication:16 - HECHO A MANO POR YESSICA SILVERA Y OSHIN VILLEGAS
+2024-06-20 19:51:09 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 19:51:09 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 19:51:09 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 19:51:09 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 19:51:09 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 19:51:09 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 19:52:33 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 19:52:33 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 19:52:33 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 19:52:33 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 19:52:33 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 19:52:33 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 19:52:36 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 19:52:36 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 19:52:42 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 19:52:42 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 19:52:42 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 19:52:42 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 19:52:42 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 19:52:42 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 19:52:42 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 19:52:42 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 19:53:56 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 19:53:56 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 19:54:05 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 19:54:05 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 19:55:09 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 19:55:09 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 19:55:23 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 19:55:23 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 19:55:25 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 19:55:25 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 19:55:52 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 19:55:52 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:02:10 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:02:10 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:04:01 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:04:01 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:04:44 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:04:44 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:04:47 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:04:47 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:04:52 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:04:52 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:04:55 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:04:55 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:05:18 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:05:18 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:05:25 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:05:25 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:06:00 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:06:00 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:06:15 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:06:15 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:06:44 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:06:44 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:06:48 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:06:48 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:06:49 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:06:49 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:06:52 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:06:52 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:06:58 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:06:58 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:07:17 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:07:17 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:07:21 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:07:21 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:08:00 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:08:00 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:08:14 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:08:14 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:08:19 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:08:19 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:08:33 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:08:33 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:08:43 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:08:43 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:08:46 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:08:46 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:08:47 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:08:47 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:08:53 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:08:53 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:08:53 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:08:53 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:08:53 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 20:08:53 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 20:08:57 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:08:57 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:09:18 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:09:18 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:09:21 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:09:21 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:09:23 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:09:23 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:09:23 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:09:23 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 20:09:23 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 20:09:23 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:09:40 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:09:40 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:10:01 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:10:01 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:10:03 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:10:03 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:10:05 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:10:05 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:10:18 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 20:10:18 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:10:18 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:10:18 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:10:18 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:10:18 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 20:11:34 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:11:34 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 20:11:34 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 20:11:34 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:11:34 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:11:34 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:11:52 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:11:52 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:11:53 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:11:53 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:11:54 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:11:54 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:11:54 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 20:11:54 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 20:11:54 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:11:54 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:12:53 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:12:53 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:12:56 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:12:56 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:12:58 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:12:58 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:12:58 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 20:12:58 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 20:12:58 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:12:58 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:14:05 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:14:05 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:14:05 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:14:05 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:14:05 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 20:14:05 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 20:14:06 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:14:06 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:14:15 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 1,  "numMatricula": 1,  "nombre": "PEPE",  "apellido": "JUAN"}
+2024-06-20 20:14:15 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "PEPE",    "apellido": "JUAN"  }]
+2024-06-20 20:14:19 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:14:19 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:14:32 INFO  PacienteService:52 - Paciente guardado con éxito: {  "id": 1,  "dni": 12132,  "nombre": "yessiiiiiiiiiii",  "apellido": "silveraaaaaaaaaaaaa",  "domicilioDtoSalida": {    "id": 1,    "calle": "obligdo",    "numero": 1203,    "localidad": "montevideo",    "provincia": "uruguay"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 20:14:32 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 12132,    "nombre": "yessiiiiiiiiiii",    "apellido": "silveraaaaaaaaaaaaa",    "domicilioDtoSalida": {      "id": 1,      "calle": "obligdo",      "numero": 1203,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:14:37 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 20:14:37 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 20:14:37 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 1,    "nombre": "PEPE",    "apellido": "JUAN"  }]
+2024-06-20 20:14:37 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 12132,    "nombre": "yessiiiiiiiiiii",    "apellido": "silveraaaaaaaaaaaaa",    "domicilioDtoSalida": {      "id": 1,      "calle": "obligdo",      "numero": 1203,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:14:49 INFO  OdontologoService:36 - Odontólogo encontrado con éxito: {  "id": 1,  "numMatricula": 1,  "nombre": "PEPE",  "apellido": "JUAN"}
+2024-06-20 20:14:49 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 1,  "dni": 12132,  "nombre": "yessiiiiiiiiiii",  "apellido": "silveraaaaaaaaaaaaa",  "domicilioDtoSalida": {    "id": 1,    "calle": "obligdo",    "numero": 1203,    "localidad": "montevideo",    "provincia": "uruguay"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 20:14:49 INFO  TurnosService:74 - Turno guardado con éxito: {  "id": 1,  "fechaYHora": "2024-06-23 23:17",  "odontologo": {    "id": 1,    "numMatricula": 1,    "nombre": "PEPE",    "apellido": "JUAN"  },  "paciente": {    "id": 1,    "dni": 12132,    "nombre": "yessiiiiiiiiiii",    "apellido": "silveraaaaaaaaaaaaa",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 1,      "calle": "obligdo",      "numero": 1203,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:14:49 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 1,    "fechaYHora": "2024-06-23 23:17",    "odontologoDtoSalida": {      "id": 1,      "numMatricula": 1,      "nombre": "PEPE",      "apellido": "JUAN"    },    "pacienteDtoSalida": {      "id": 1,      "dni": 12132,      "nombre": "yessiiiiiiiiiii",      "apellido": "silveraaaaaaaaaaaaa",      "domicilioDtoSalida": {        "id": 1,        "calle": "obligdo",        "numero": 1203,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:14:52 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 20:14:52 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 20:14:54 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:14:54 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:14:56 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
+2024-06-20 20:14:56 WARN  OdontologoService:58 - No se encontraron odontólogos
+2024-06-20 20:16:36 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 2,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Feeeeeee"}
+2024-06-20 20:16:36 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:16:38 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 20:16:38 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 20:16:49 INFO  PacienteService:52 - Paciente guardado con éxito: {  "id": 2,  "dni": 3123,  "nombre": "yessiiiiiiiiiii",  "apellido": "miraba",  "domicilioDtoSalida": {    "id": 2,    "calle": "obligdo",    "numero": 312,    "localidad": "montevideo",    "provincia": "uruguay"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 20:16:49 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:16:52 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
+2024-06-20 20:16:52 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 20:16:52 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:16:52 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:16:59 INFO  OdontologoService:36 - Odontólogo encontrado con éxito: {  "id": 2,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Feeeeeee"}
+2024-06-20 20:16:59 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 2,  "dni": 3123,  "nombre": "yessiiiiiiiiiii",  "apellido": "miraba",  "domicilioDtoSalida": {    "id": 2,    "calle": "obligdo",    "numero": 312,    "localidad": "montevideo",    "provincia": "uruguay"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 20:16:59 INFO  TurnosService:74 - Turno guardado con éxito: {  "id": 2,  "fechaYHora": "2024-06-29 01:22",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:16:59 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-06-29 01:22",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:17:00 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-06-29 01:22",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:17:07 INFO  OdontologoService:36 - Odontólogo encontrado con éxito: {  "id": 2,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Feeeeeee"}
+2024-06-20 20:17:07 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 2,  "dni": 3123,  "nombre": "yessiiiiiiiiiii",  "apellido": "miraba",  "domicilioDtoSalida": {    "id": 2,    "calle": "obligdo",    "numero": 312,    "localidad": "montevideo",    "provincia": "uruguay"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 20:17:07 INFO  TurnosService:118 - Turno actualizado con éxito: {  "id": 2,  "fechaYHora": "2024-07-01 01:22",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:17:07 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:17:07 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:17:07 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-07-01 01:22",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:17:20 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:17:24 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:17:27 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:17:30 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:17:31 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:17:31 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:17:31 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-07-01 01:22",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:20:03 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:20:03 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-07-01 01:22",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:20:03 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:20:05 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-01 01:22",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:20:08 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-01 01:22",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:20:10 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-01 01:22",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:20:19 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:20:19 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:20:19 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-07-01 01:22",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:20:20 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-01 01:22",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:20:24 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-01 01:22",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:20:40 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-01 01:22",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:20:49 INFO  OdontologoService:36 - Odontólogo encontrado con éxito: {  "id": 2,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Feeeeeee"}
+2024-06-20 20:20:49 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 2,  "dni": 3123,  "nombre": "yessiiiiiiiiiii",  "apellido": "miraba",  "domicilioDtoSalida": {    "id": 2,    "calle": "obligdo",    "numero": 312,    "localidad": "montevideo",    "provincia": "uruguay"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 20:20:49 INFO  TurnosService:118 - Turno actualizado con éxito: {  "id": 2,  "fechaYHora": "2024-07-07 20:26",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:20:49 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:20:49 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:20:49 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-07-07 20:26",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:21:17 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-07 20:26",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:21:29 INFO  OdontologoService:36 - Odontólogo encontrado con éxito: {  "id": 2,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Feeeeeee"}
+2024-06-20 20:21:29 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 2,  "dni": 3123,  "nombre": "yessiiiiiiiiiii",  "apellido": "miraba",  "domicilioDtoSalida": {    "id": 2,    "calle": "obligdo",    "numero": 312,    "localidad": "montevideo",    "provincia": "uruguay"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 20:21:29 INFO  TurnosService:118 - Turno actualizado con éxito: {  "id": 2,  "fechaYHora": "2024-07-07 01:26",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:21:29 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:21:29 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:21:29 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-07-07 01:26",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:21:32 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:21:32 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:21:32 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-07-07 01:26",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:21:34 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-07 01:26",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:21:36 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-07 01:26",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:21:45 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-07 01:26",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:22:28 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:22:31 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:22:31 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:22:31 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-07-07 01:26",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:22:34 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-07 01:26",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:29:38 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:29:38 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-07-07 01:26",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:29:38 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:29:40 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-07-07 01:26",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:29:47 INFO  OdontologoService:36 - Odontólogo encontrado con éxito: {  "id": 2,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Feeeeeee"}
+2024-06-20 20:29:47 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 2,  "dni": 3123,  "nombre": "yessiiiiiiiiiii",  "apellido": "miraba",  "domicilioDtoSalida": {    "id": 2,    "calle": "obligdo",    "numero": 312,    "localidad": "montevideo",    "provincia": "uruguay"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 20:29:47 INFO  TurnosService:118 - Turno actualizado con éxito: {  "id": 2,  "fechaYHora": "2024-08-01 01:26",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:29:47 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:29:47 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:29:47 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-08-01 01:26",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:29:55 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-08-01 01:26",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:30:01 INFO  OdontologoService:36 - Odontólogo encontrado con éxito: {  "id": 2,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Feeeeeee"}
+2024-06-20 20:30:01 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 2,  "dni": 3123,  "nombre": "yessiiiiiiiiiii",  "apellido": "miraba",  "domicilioDtoSalida": {    "id": 2,    "calle": "obligdo",    "numero": 312,    "localidad": "montevideo",    "provincia": "uruguay"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 20:30:01 INFO  TurnosService:118 - Turno actualizado con éxito: {  "id": 2,  "fechaYHora": "2024-08-01 07:30",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:30:01 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:30:01 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:30:01 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-08-01 07:30",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
+2024-06-20 20:30:31 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 2,  "fechaYHora": "2024-08-01 07:30",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:30:37 INFO  OdontologoService:36 - Odontólogo encontrado con éxito: {  "id": 2,  "numMatricula": 1,  "nombre": "Pipe",  "apellido": "Feeeeeee"}
+2024-06-20 20:30:37 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 2,  "dni": 3123,  "nombre": "yessiiiiiiiiiii",  "apellido": "miraba",  "domicilioDtoSalida": {    "id": 2,    "calle": "obligdo",    "numero": 312,    "localidad": "montevideo",    "provincia": "uruguay"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 20:30:37 INFO  TurnosService:118 - Turno actualizado con éxito: {  "id": 2,  "fechaYHora": "2024-09-04 07:30",  "odontologo": {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  },  "paciente": {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "fechaAlta": "2024-06-20",    "domicilio": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    }  }}
+2024-06-20 20:30:37 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 2,    "numMatricula": 1,    "nombre": "Pipe",    "apellido": "Feeeeeee"  }]
+2024-06-20 20:30:37 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 2,    "dni": 3123,    "nombre": "yessiiiiiiiiiii",    "apellido": "miraba",    "domicilioDtoSalida": {      "id": 2,      "calle": "obligdo",      "numero": 312,      "localidad": "montevideo",      "provincia": "uruguay"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 20:30:37 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 2,    "fechaYHora": "2024-09-04 07:30",    "odontologoDtoSalida": {      "id": 2,      "numMatricula": 1,      "nombre": "Pipe",      "apellido": "Feeeeeee"    },    "pacienteDtoSalida": {      "id": 2,      "dni": 3123,      "nombre": "yessiiiiiiiiiii",      "apellido": "miraba",      "domicilioDtoSalida": {        "id": 2,        "calle": "obligdo",        "numero": 312,        "localidad": "montevideo",        "provincia": "uruguay"      },      "fechaAlta": "2024-06-20"    }  }]
